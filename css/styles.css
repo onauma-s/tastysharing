@@ -1,0 +1,43 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.navbar {
+    background-color: #fdcfce;
+    margin-top: 20px;
+    border: solid white 5px;
+}
+
+.modal-header {
+    background-color: #fdcfce;
+}
+
+#headerSite {
+    background-color: #fdcfce;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    border: solid white 5px;
+}
+
+/*.btn {
+    box-shadow: 1px 1px #D3D3D3;
+}*/
+
+h1 {
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px #D3D3D3;
+}
+
+#footerContainer {
+    background-color: #fdcfce;
+    color: #606060;
+}
+
+h6 {
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px #D3D3D3;
+}
