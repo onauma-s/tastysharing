@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <title>Tasty-Sharing Website</title>
+
+    </head>
+
+    <body>
+            <div class="container bg-primary" id="signupHeader">
+                <div class="row">
+                    <div class="col pt-3">
+                        <h3>Sign Up</h3>
+                        <p>Please fill in this form to create an account!</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container" id="signupBody">
+                <div class="row">
+                    <div class="col">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12 pt-3">
+                                    <label for="firstName">First Name : </label>
+                                    <input type="text" class="form-control form-control-sm" id="firstName" placeholder="Enter your first name" />
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label for="lastName">Last Name : </label>
+                                    <input type="text" class="form-control form-control-sm" id="lastName" placeholder="Enter your last name" />
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label for="email">Email address : </label>
+                                    <input type="email" class="form-control form-control-sm" id="email" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="password">Password : </label>
+                                    <input type="password" class="form-control form-control-sm" id="password" placeholder="Password" />
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="confirmPassword">Confirm Password : </label>
+                                    <input type="password" class="form-control form-control-sm" id="confirmPassword" placeholder="Confirm password" />
+                                </div>
+                            </div>
+                            <div class="form-row pb-3">
+                                <button type="button" class="btn btn-secondary ml-auto"><a href="index.html" id="signupBtn">Cancel</a></button>
+                                <button type="button" class="btn btn-primary ml-1">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        
+
+
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
