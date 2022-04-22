@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Tasty-Sharing Website</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                data-target="#tastysharingNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="tastysharingNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="writereview.html">Write Review</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                </ul>
+                <!-- Login navbar -->
+                <span class="navbar-text ml-auto">
+                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in"></i> Login
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label for="loginEmail">Email address : </label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail"
+                                        placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="loginPassword">Password : </label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword"
+                                        placeholder="Password" />
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                    data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Sign Up Link-->
+                    <div class="container-fluid">
+                        <a href="signup.html">Don't have an account? Please Sign Up!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Header -->
+    <header>
+        <div class="container-fluid" id="headerSite-Image">
+            <div class="row">
+                <div class="col">
+                    <img src="img/Woodencity.jpg" alt="Image Header" width="100%" height="300px" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Body Blog -->
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <h3>Wooden City Tacoma</h3>
+                <p>Published at 10 April 2022</p>
+                <p>Great drinks, comforting American Cuisine & sincere hospitality in the heart of downtown Tacoma!</p>
+                <p>Perfectly captures the quintessential pacific northwest modern American dining experience. Rustic building features combined with contemporary touches throughout. Seating space is "intimate", not at all unique for a restaurant with this level popularity or aesthetic. That aside we thoroughly enjoyed all of two hours here; taking full advantage of the menu from appetizers to dessert. We loved every bite. Oh,and do NOT skip out dessert. Only a couple offerings but they alone are enough to induce coming in as part of an evening on the town. Pricing is on par with that of similar restaurants in the Seattle area (my opinion). Our server was incredibly personable and knowledgeable. Never acted rushed or impatient even though they were near capacity. This restaurant is a great addition to Tacoma and is helping to bring a hip trendy food vibe into the downtown Tacoma area.</p>
+                <img src="img/woodencity-3.jpg" alt="Food Img" width="350px" height="300px" class="pb-3" />
+                <img src="img/woodencity-2.jpg" alt="Food Img" width="350px" height="300px" class="pb-3" />
+                <p>My favorite dish are Blisterd Hungarian Peppers, Smoked Salmon Toast and Lamb Bologness! Must try! I really recommend this place. </p>
+            </div>
+            <div class="col mb-5">
+                <div class="container-fluid bg-white mx-auto my-3">
+                    <div class="row">
+                        <div class="col text-center px-0 py-0">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.9467125124525!2d-122.44185838450477!3d47.256745279162985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905508892589e5%3A0xab7a2105b6003ec2!2sWooden%20City%20Tacoma!5e0!3m2!1sen!2sus!4v1641169845826!5m2!1sen!2sus"
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>Address: </p>
+                        </div>
+                        <div class="col">
+                            <p>714 Pacific Ave, Tacoma, WA 98402</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>Phone: </p>
+                        </div>
+                        <div class="col">
+                            <p>+1(253) 503-0762</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>Website: </p>
+                        </div>
+                        <div class="col">
+                            <p>http://woodencitytacoma.com/</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comment area-->
+    <div class="container my-5" id="commentContainer">
+        <div class="row d-flex justify-content-center">
+            <div class="col-10">
+                <div class="card shadow-0 border" style="background-color: #f0f2f5;">
+                    <div class="card-body p-4">
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="inputComment">Leave a comment...</label>
+                            <textarea type="text" id="inputComment" class="form-control" rows="3" placeholder="Type comment..."></textarea>
+                            <button type="submit" class="btn btn-info mt-2">Post</button>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <p>This place is amazing. The food, the ambiance, and the staff is great.</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <img src="img/icons8-avatar-91.png" alt="avatar" width="30" height="30" />
+                                        <p class="mb-0 ml-2">Josh</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <p>Everything tasted great! Really chill vibe inside, dark and moody.</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <img src="img/icons8-avatar-91.png" alt="avatar" width="30" height="30" />
+                                        <p class="mb-0 ml-2">Ryan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="container-fluid" id="footerContainer">
+            <div class="row">
+                <div class="col-6 text-center">
+                    <h6>CONTACT</h6>
+                    <div class="container">
+                        <p class="m-0"><i class="fa fa-building" aria-hidden="true"></i> 123 Tacoma, Washington State
+                            98407</p>
+                        <p class="m-0"><i class="fa fa-phone-square" aria-hidden="true"></i> +1(703)123-4567</p>
+                        <p><i class="fa fa-envelope" aria-hidden="true"></i> tastysharing@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-6 text-center">
+                    <h6>FOLLOW US</h6>
+                    <a class="btn btn-social-icon" href="https://www.facebook.com/"><i
+                            class="fa fa-facebook-official"></i></a>
+                    <a class="btn btn-social-icon" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon" href="https://twitter.com/"><i class="fa fa-twitter-square"></i></a>
+                    <a class="btn btn-social-icon" href="https://www.youtube.com/"><i
+                            class="fa fa-youtube-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
